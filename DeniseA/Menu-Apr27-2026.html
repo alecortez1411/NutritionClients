@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plan Nutricional - Alejandra Cortez</title>
+    <title>Plan Nutricional - Semana 1 - Denise A</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
@@ -72,167 +72,179 @@
     <script>
         const dietPlan = {
             Lunes: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 portion of fruit with cottage cheese (250 g)"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1 cup papayas raw (145 g)", "1/2 avocado California (68 g)", "16 g mozzarella nonfat"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Mexican Deconstructed Burrito Bowl (567 g)"] },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup yogurt, vanilla, non-fat (245 g)", "100 g apple"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 portion of Ensalada de Pollo (588 g)"] }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 large units of egg, whole, cooked, scrambled (122 g)", "2 cubic inches of ham, turkey, sliced, extra lean, prepackaged", "16 g cheese, mozzarella, nonfat", "1 unit yields of lime juice, raw (44 g)"] },
+                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["100 grams of apple"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 piece of chicken, broiler or fryers, breast, skinless, boneless, meat only, raw (272 g)", "1/2 cup of quinoa, uncooked (85 g)"] },
+                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["10 units of nuts, almonds (12 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["2 portions of Chicken Tacos (471 g)"] }
             ],
             Martes: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 large units of egg, whole, raw, fresh (100 g)", "2 slices of bread, whole-wheat, commercially prepared (64 g)", "16 g mozzarella nonfat"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["10 almonds (12 g)"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["Avocado toast con huevos revueltos y queso mozzarella"] },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup pineapple chunks (165 g)"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["3 oz chicken breast, grilled (85 g)", "1/2 cup brown rice, cooked (101 g)", "1/2 cup broccoli, cooked (78 g)", "1 large sweet potato, baked (180 g)"] }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 portion of SLT – Yogurt Banana Sundae (195 g)"] },
+                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1 cup, pared, chopped of cucumber, peeled, raw (133 g)", "1 unit yields of lime juice, raw (44 g)", "1/2 cup of blueberries, raw (74 g)"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Tuna and Pesto Pasta Salad (430 g)"] },
+                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 portion of Apple–Peanut Butter Snack (214 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["100 grams of Steamed Broccoli", "1 portion of Salmon with Wild Rice and Veggies (401 g)"] }
             ],
             Miércoles: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 slices of bread, whole-wheat, commercially prepared (64 g)", "2 portions of Boiled Eggs"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["100 g apple"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Ensalada de Pollo (588 g)"], notes: "Si no tenés hummus podés reemplazarlo con pollo" },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup pineapple chunks (165 g)"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["100 g chicken fajitas", "1/2 cup brown rice, cooked (101 g)", "100 g black beans", "1/4 cup onions, raw (40 g)", "1 unit lime juice (44 g)"] }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 slices of bread, whole-wheat, commercially prepared (64 g)", "2 portions of Boiled Eggs – Soft, Medium & Hard Boiled options"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Chicken, Ginger and Turmeric Soup With Rice (876 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 bowl of Black Bean–Quinoa Buddha Bowl (509 g)"], notes: "Si no tenés hummus podés reemplazarlo con pollo" }
             ],
             Jueves: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 portion Banana Breakfast Smoothie (226 g)"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1 oz walnuts, English (28 g)"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 Mission Flour Tortilla, soft taco 8\" (51 g)", "2 slices turkey breast, prepackaged (32 g)", "1/4 cup shredded mozzarella nonfat (28 g)", "1/2 avocado California (68 g)"] },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["100 g apple"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 portion Spaghetti Bolognese (264 g)", "1 portion Green Salad – Maryem's (211 g)"], notes: "La ensalada tiene espinaca, la podés quitar" }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 portion of Banana Breakfast Smoothie, Low Fat with Protein Powder (226 g)"] },
+                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1 oz (14 halves) of nuts, walnuts, english (28 g)"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Chicken and Mushroom Quesadillas (319 g)", "1 cup chopped of carrots, raw (128 g)"] },
+                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 unit yields of lime juice, raw (44 g)", "1 slice of Open Face Peanut Butter & Banana Sandwich (103 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1/2 cup of yogurt, vanilla, non-fat (123 g)", "3 oz of chicken, breast, skinless, boneless, cooked, grilled (85 g)", "1/2 cup of quinoa, cooked (93 g)", "1/2 cup, chopped of broccoli, cooked, boiled, drained, without salt (78 g)", "100 grams of apple"] }
             ],
             Viernes: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 large units of egg, scrambled (122 g)", "2 slices turkey breast, low salt (56 g)", "1 slice whole-wheat bread (32 g)", "1 orange, navel (140 g)"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1/2 cup ricotta, part skim (124 g)", "1 medium apple (182 g)", "1/2 cup blueberries raw (74 g)"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["3 oz chicken breast, grilled (85 g)", "1 cup Colourful Roasted Sheet-Pan Veggies (155 g)"] },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup yogurt, vanilla, non-fat (245 g)"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 slice PIZZA HUT 14\" Cheese Pizza, Pan Crust (112 g)", "1 portion Tik Tok Cucumber Salad (218 g)"] }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 large units of egg, whole, cooked, scrambled (122 g)", "2 slices of turkey breast, low salt, prepackaged, any or deli luncheon meat (56 g)", "1 slice of bread, whole-wheat, commercially prepared (32 g)", "1/2 cup of yogurt, vanilla, low fat (123 g)"] },
+                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["100 grams of apple", "1 unit yields of lime juice, raw (44 g)"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Chicken Soup (507 g)"] },
+                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup of yogurt, vanilla, non-fat (245 g)", "1 medium unit of bananas, raw (118 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 can of fish, tuna, light, canned in water, without salt, drained solids (165 g)", "1/2 cup slices of cucumber, with peel, raw (52 g)", "1 portion of Quick Pickled Red Onion (100 g)", "1 fruit, without skin and seed of avocados, raw, California (136 g)", "1 unit yields of lime juice, raw (44 g)", "1/4 cup of coriander (cilantro) leaves, raw (4 g)"] }
             ],
             Sábado: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 portion Pecan Maple Oatmeal (116 g)"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1/2 oz pecans, 19 halves (14 g)"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion Garlic Butter-Roasted Salmon with Potatoes & Asparagus (338 g)"] },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["2 tbsp peanut butter, smooth (32 g)", "100 g apple"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 Turkey Sandwich with Avocado Spread (318 g)", "1/2 cup blueberries raw (74 g)", "100 g Greek yogurt nonfat vanilla (CHOBANI)"] }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 portion of Banana Pancakes (218 g)"] },
+                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["10 units of nuts, almonds (12 g)"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["100 grams of apple", "1 portion of Chicken Fajita Pasta (306 g)"] },
+                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup chopped of carrots, raw (128 g)", "1 unit yields of lime juice, raw (44 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 portion of Spicy Shrimp Bowl with Rice (561 g)", "1/2 cup of blueberries, raw (74 g)"] }
             ],
             Domingo: [
-                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["1 jar Apple & Cinnamon Overnight Oats (256 g)"] },
-                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1 cup carrots chopped raw (128 g)", "1 unit lime juice (44 g)"] },
-                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["3 oz beef top sirloin, grilled (85 g)", "1/2 cup broccoli, cooked (78 g)", "1 cup scalloped potatoes (245 g)"] },
-                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1 cup popcorn, air-popped (8 g)"] },
-                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["1 portion SLT – Yogurt Banana Sundae (195 g)"] }
+                { type: "Desayuno", time: "07:00 AM", icon: "coffee", items: ["2 large units of egg, whole, raw, fresh (100 g)", "1/2 cup of tomatoes, red, ripe, canned, packed in tomato juice (120 g)", "1/2 fruit, without skin and seed of avocados, raw, California (68 g)", "1 slice of bread, whole-wheat, commercially prepared (32 g)"], notes: "Huevos revueltos con tomate." },
+                { type: "Snack de la Mañana", time: "10:00 AM", icon: "apple", items: ["1 serving of gelatin desserts, dry mix, reduced calorie, with aspartame (6 g)"] },
+                { type: "Almuerzo", time: "12:00 PM", icon: "utensils", items: ["1 portion of Blackened Tilapia Fillet (175 g)", "1 portion of Green Beans (152 g)", "1/2 cup of rice, brown, long-grain, cooked (101 g)"] },
+                { type: "Snack de la Tarde", time: "04:00 PM", icon: "apple", items: ["1/2 cup of yogurt, vanilla, non-fat (123 g)"] },
+                { type: "Cena", time: "07:00 PM", icon: "utensils", items: ["2 slices of turkey breast, low salt, prepackaged or deli luncheon meat (56 g)", "1/2 cup, shredded of cheese, mozzarella, nonfat (57 g)", "1 cup of wheat flour, white, tortilla mix, enriched (111 g)"] }
             ]
         };
 
         const recipes = [
             {
-                title: "BANANA BREAKFAST SMOOTHIE",
+                title: "QUICK PICKLED RED ONION",
+                author: "Jules F-J",
+                description: "Delicious added to Buddha Bowls, mega salads, and hot dogs, or as a zingy side dish.",
+                ingredients: ["1 medium unit of red onion, peeled, raw", "100 g apple cider vinegar", "3 g salt and pepper", "1/2 tbsp sugar, white (10 g)"],
+                instructions: ["Finely slice the red onion, rinse under hot water for a few seconds in a sieve or colander, drain, and pack tightly into a regular-sized mug.", "Add vinegar up to around half way up the mug, along with the seasonings and sugar.", "Fill the rest of the mug with just-boiled water.", "Leave to rest for at least 20 minutes, then rinse thoroughly under running water in a sieve or colander, until just tasting pickled but not overwhelmingly vinegary, salty or sugary.", "Leave to drain or pat dry with kitchen towel until not watery. Ready to use!"]
+            },
+            {
+                title: "CHICKEN, GINGER AND TURMERIC SOUP WITH RICE",
+                author: "Joanna Derry",
+                description: "This chicken soup is super simple to make and loaded with nutrient-dense foods. It's an immunity-boosting powerhouse meal, ideal for those harbouring colds or seeking comfort.",
+                ingredients: ["1 tbsp olive oil", "3 cloves garlic, sliced", "2 inch (5 cm) ginger, peeled and sliced", "1 shallot, sliced", "680 g boneless, skinless chicken thighs", "1 tsp salt", "1 tsp turmeric", "200 g fresh spinach", "185 g jasmine rice, raw", "1.9 litres chicken stock", "4 limes, juiced", "1 tbsp soy sauce", "1 tbsp fish sauce (optional)", "Fresh mint for topping", "Fresh coriander for topping", "Fresh basil for topping"],
+                instructions: ["Heat the olive oil in a large pot over medium heat. Add in the garlic, ginger, and shallots and sauté for 4–5 minutes.", "Add the chicken thighs. Season with 1 tsp salt and the turmeric. Add 60 ml water and leave to cook for 2–3 minutes. Flip the chicken and repeat until cooked through. Remove and set aside.", "Add the rice and cook for 1–2 minutes, then add the stock and bring to a boil. Reduce heat and simmer until rice is tender. While the rice is cooking, shred the chicken.", "When the rice is cooked, add the shredded chicken back to the pot. Add the spinach and cook another 1–2 minutes until wilted.", "Squeeze in the lime juice, add soy sauce/fish sauce, and fresh herbs. Season to taste with more salt and pepper if necessary."]
+            },
+            {
+                title: "STEAMED BROCCOLI",
+                author: "DHHS Clinical Nutrition",
+                description: "Plain and simple steamed broccoli.",
+                ingredients: ["5 stalks of broccoli, raw (755 g)", "8.5 fl oz of water (252 g)"],
+                instructions: ["Wash the broccoli.", "Trim the broccoli into bite-size pieces.", "Add 1½ to 2 cups of water to a pot or pan for steaming.", "Pour the broccoli into a steamer basket and place inside the pot or pan. Bring the water to a boil.", "Cover with a lid and reduce heat to medium.", "Cook for 3 minutes. Remove broccoli from steamer basket — it should be bright green and tender but still crunchy.", "Transfer to a bowl for serving and season with fresh lemon, olive oil, salt, and pepper if desired."]
+            },
+            {
+                title: "BANANA BREAKFAST SMOOTHIE, LOW FAT WITH PROTEIN POWDER",
                 author: "Aoife Quinn",
-                ingredients: ["1/2 cup skim milk (123 g)", "1/2 tbsp honey (11 g)", "1/4 cup rolled oats", "1/2 tsp cinnamon ground (1 g)", "1 small banana (40 g)", "1 scoop protein powder"],
+                ingredients: ["1/2 cup skim milk (123 g)", "1/2 tbsp honey (11 g)", "1/4 cup rolled oats", "1/2 tsp cinnamon, ground (1 g)", "1 small banana (40 g)", "1 scoop protein powder"],
                 instructions: ["Add all ingredients to a blender and mix. Add extra milk for lighter consistency."]
             },
             {
-                title: "MEXICAN DECONSTRUCTED BURRITO BOWL",
-                author: "Melissa Gundersen",
-                description: "Easy vegetarian burrito bowl, perfect for meal prep. Makes 5 portions in about 20 minutes. Packed with nutrients — add chicken for extra protein.",
-                ingredients: ["3 cups quinoa, cooked (555 g)", "1.5 cups black beans, canned low sodium (360 g)", "1 cup corn, frozen (141 g)", "1/2 cup cilantro (8 g)", "1 tsp cumin seed (2 g)", "1/2 tsp salt (3 g)", "1 unit lime juice (44 g)", "2 heads romaine lettuce (1252 g)", "1/2 cup salsa (130 g)", "2.5 avocados California (340 g)"],
-                instructions: ["Prepare quinoa per package instructions. Once cooled, combine quinoa, beans, corn, cilantro, cumin, salt, and lime juice in a large bowl.", "Using 5 glass containers, add 2 cups romaine, 1.5 cups quinoa mixture, 1–3 tbsp salsa, and 1/2 avocado to each.", "Garnish with lime wedges and cilantro. Refrigerate up to 5 days."]
+                title: "BANANA PANCAKES",
+                author: "Rosi Alves",
+                description: "Good option for breakfast.",
+                ingredients: ["2 large units of egg, whole, raw, fresh (100 g)", "1 medium banana, raw (118 g)"],
+                instructions: ["Mash the banana and mix with the eggs.", "Cook as pancakes in a non-stick pan over medium heat until set on each side."]
             },
             {
-                title: "TIK TOK CUCUMBER SALAD",
-                author: "Sarah Gouws",
-                description: "Fresh salad — just add a lean protein and healthy carb to make it a balanced meal.",
-                ingredients: ["1/2 large cucumber", "1/2 tsp sesame oil", "1 tbsp rice vinegar", "2 tbsp soy sauce", "1 spring onion, finely chopped", "1 tsp sesame seeds", "1/2 tsp chili flakes (optional)"],
-                instructions: ["Dice the cucumber.", "Whisk sesame oil, soy sauce, rice vinegar, and chili flakes. Pour over cucumber.", "Add spring onions and mix. Sprinkle sesame seeds on top.", "Optional: add 1 tbsp sauerkraut on top."]
-            },
-            {
-                title: "ENSALADA DE ATÚN",
-                author: "Pricilla Solis",
-                ingredients: ["6 oz tuna, fresh bluefin raw (170 g)", "1/2 cup corn, sweet yellow raw (73 g)", "1 tomato, orange raw (111 g)", "1 jalapeño (14 g)", "1/2 cup onions, chopped raw (80 g)", "2 tbsp light mayo – Kraft (30 g)"],
-                instructions: ["In a bowl, add canned or cooked tuna.", "Cut up your veggies.", "Season tuna and add mayo.", "Mix all ingredients together."]
-            },
-            {
-                title: "PECAN MAPLE OATMEAL",
-                author: "Melissa Gundersen",
-                description: "Thanks to ripe bananas, a drizzle of pure maple syrup, and toasted pecans, this warm bowl of comfort is a satisfying breakfast.",
-                ingredients: ["2 cups quick oats – QUAKER (160 g)", "2 medium bananas, sliced (236 g)", "1 tsp cinnamon ground (3 g)", "2 tsp vanilla extract (8 g)", "2–3 stevia packets (3 g)", "1/4 cup pecans, chopped & toasted (27 g)", "1.2 tbsp maple syrup (24 g)", "0.15 tsp salt (1 g)"],
-                instructions: ["In a large saucepan, bring 3¼ cups water and salt to a boil. Stir in oats and half the bananas; reduce heat and simmer 3 minutes uncovered, stirring occasionally.", "When water is absorbed and oats are thick, remove from heat. Stir in remaining bananas, cinnamon, vanilla, and stevia.", "Serve topped with toasted pecans and maple syrup, divided evenly. Sprinkle extra cinnamon if desired."]
-            },
-            {
-                title: "GARLIC BUTTER-ROASTED SALMON WITH POTATOES & ASPARAGUS",
-                author: "Eszter Halas",
-                description: "A one-pan healthy and satisfying weeknight dinner. Melted garlic butter coats the salmon and vegetables, adding depth and richness.",
-                ingredients: ["1 lb baby Yukon Gold potatoes, halved", "2 tbsp extra-virgin olive oil, divided", "1/2 tsp salt, divided", "1/2 tsp ground pepper, divided", "12 oz asparagus, trimmed", "2 tbsp melted butter", "1 tbsp lemon juice", "2 cloves garlic, minced", "1.5 lbs salmon fillet, cut into 4 portions", "Chopped parsley for garnish"],
-                instructions: ["Preheat oven to 400°F. Toss potatoes with 1 tbsp oil, 1/4 tsp salt, 1/8 tsp pepper. Spread on a rimmed baking sheet. Roast 15 minutes.", "Toss asparagus with remaining oil, salt, and pepper. Combine butter, lemon juice, garlic, 1/4 tsp salt, and remaining pepper in a small bowl.", "Move potatoes to one side. Place salmon in the center and drizzle with butter mixture. Spread asparagus on the empty side. Roast 10–12 minutes until salmon is just cooked through. Garnish with parsley."]
-            },
-            {
-                title: "APPLE & CINNAMON OVERNIGHT OATS",
-                author: "Neil Salanki",
-                description: "A healthy no-cook make-ahead oatmeal, perfect for busy mornings.",
-                ingredients: ["1/2 cup rolled or quick oats", "3/4 cup almond or coconut milk", "1/2 scoop plant-based protein powder", "2 tsp chia seeds", "1/2 cup apples, chopped", "1 tsp cinnamon ground", "1–2 tsp maple syrup", "1/4 cup water (as needed)"],
-                instructions: ["Add oats, milk, protein powder, and chia seeds to a mason jar or container.", "Add apples and cinnamon (and maple syrup if desired).", "Shake or stir to combine. Seal and chill in fridge at least 4 hours or overnight.", "Serve cold or heat in microwave or stovetop. Top with extra apples and cinnamon."]
-            },
-            {
-                title: "COLOURFUL ROASTED SHEET-PAN VEGGIES",
+                title: "CHICKEN TACOS",
                 author: "Joanna Derry",
-                description: "Easy roasted vegetables that give your plate a pop of colour. The squash gets a head start so everything finishes at the same time.",
-                ingredients: ["900 g butternut squash, cubed (1-inch)", "3 tbsp olive oil, divided", "350 g broccoli florets", "2 red peppers, cut into squares", "1 large red onion, bite-size chunks", "2 tsp Italian seasoning", "1 tsp coarse salt", "1/4 tsp pepper", "1 tbsp balsamic vinegar"],
-                instructions: ["Preheat oven to 200°C (Gas Mark 6).", "Toss squash with 1 tbsp olive oil; spread on baking sheet. Roast 10 minutes.", "Toss broccoli, bell peppers, and onion with remaining 2 tbsp oil, Italian seasoning, salt, and pepper. Add part-baked squash and toss to combine.", "Spread on 2 baking sheets. Roast 17–20 minutes, stirring once or twice, until tender and browned. Drizzle with balsamic vinegar."]
+                description: "Low-sodium chicken tacos ready in under 30 minutes. Spiced grilled chicken and creamy, zesty slaw in corn tortillas.",
+                ingredients: ["340 g chicken breast, skinless, boneless, raw", "2 tsp dry taco seasoning mix (6 g)", "1 tbsp olive oil (14 g)", "70 g shredded cabbage, raw", "10 g grated carrots, raw", "4 tbsp 0% fat Greek yoghurt", "1/4 tbsp cider vinegar (4 g)", "4 outer leaves of lettuce, green leaf, raw (96 g)", "8 g coriander leaves, raw", "75 g sliced avocado, raw", "4 corn tortillas, ready-to-eat (96 g)"],
+                instructions: ["Heat a large grill pan over medium heat. Coat the chicken breasts in taco seasoning and olive oil.", "Grill the chicken breasts until cooked through.", "Mix cabbage and grated carrots with Greek yoghurt and cider vinegar. Chill in the refrigerator until the chicken is done.", "Once the chicken is cooked, allow it to rest for 5 minutes, then shred into rough chunks using two forks.", "Assemble tacos: add chicken, coleslaw, and avocado slices to each corn tortilla (you can use lettuce instead if you prefer).", "Squeeze lime juice over tacos and enjoy."]
             },
             {
-                title: "TURKEY SANDWICH WITH AVOCADO SPREAD",
-                author: "Kimberley Morris",
-                description: "A filling whole-grain turkey sandwich with a flavorful avocado-cilantro spread.",
-                ingredients: ["2 slices multigrain bread, toasted (48 g)", "1 avocado California (136 g)", "1/4 cup cilantro leaves (4 g)", "1/4 tsp cumin seed (1 g)", "Dash of salt", "4 oz turkey breast deli meat (114 g)", "2 medium lettuce leaves (15 g)"],
-                instructions: ["Mince cilantro.", "Smash avocado and mix with cilantro, cumin, and salt.", "Spread avocado mixture on both sides of bread.", "Assemble sandwich with turkey and lettuce. Enjoy."]
+                title: "BLACK BEAN–QUINOA BUDDHA BOWL",
+                author: "Angelina",
+                ingredients: ["180 g canned black beans, rinsed", "120 g quinoa, cooked", "60 g hummus, commercial, reduced fat", "1 tbsp lime juice", "1/4 medium avocado, diced", "3 tbsp pico de gallo", "2 tbsp chopped fresh cilantro"],
+                instructions: ["Combine beans and quinoa in a bowl.", "Stir hummus and lime juice together in a small bowl; thin with water to desired consistency. Drizzle dressing over the beans and quinoa.", "Top with avocado, pico de gallo, and cilantro.", "To make Pico de Gallo: combine 150 g finely chopped white onion, 1 jalapeño (finely chopped), 60 ml lime juice, 1/4 tsp salt, 700 g chopped ripe tomatoes, and 20 g fresh cilantro. Let marinate 15 minutes before serving."]
             },
             {
-                title: "FRUIT WITH COTTAGE CHEESE",
-                author: "Kathinka Roesiger",
-                ingredients: ["200 g cottage cheese, 2% M.F.", "15 almonds (18 g)", "1 small orange, flesh only (120 g)", "1/2 cup kiwi, sliced (90 g)", "50 g mango, without skin raw", "50 g papaya or strawberries raw", "1/2 tbsp honey (11 g)"],
-                instructions: ["Roast almonds at medium heat without fat for 3–4 minutes.", "Squeeze juice from half the orange; filet the other half. Cut all other fruits into medium pieces. Mix fruit in a bowl with the orange juice.", "Mix cottage cheese with honey; spoon over fruit mixture. Decorate with roasted almonds."]
+                title: "BLACKENED TILAPIA FILLET",
+                author: "CARLOTTA ORLANDO, MS, RDN, LDN, CSO",
+                ingredients: ["5 oz tilapia, raw", "1 tbsp paprika (7 g)", "1 tsp thyme, dried, ground (1 g)", "1 tsp cumin seed, ground (2 g)", "1 tsp oregano, dried, ground", "1 tsp garlic, raw (3 g)", "1 tsp onion powder (2 g)", "1 tsp black pepper, ground (5 g)", "1 tbsp olive oil"],
+                instructions: ["Mix all dry spices in a small bowl to create blackening powder.", "Moisten the sides of each tilapia fillet (with water or cooking spray) and coat with the blackening powder (about 1 tbsp per fillet).", "Heat 1 tbsp of oil per fillet in a skillet over medium-high heat. Once nearly smoking, add the fillets and cook about 3 minutes per side, until opaque and able to be flaked with a fork.", "Remove from pan and serve immediately."]
+            },
+            {
+                title: "SALMON WITH WILD RICE AND VEGGIES",
+                author: "Megan Tighe",
+                description: "Great use for a piece of leftover salmon.",
+                ingredients: ["1 fillet of salmon, Atlantic, raw (110 g)", "200 g mixed vegetables, fresh or frozen, raw", "1 drizzle of olive oil (9 g)", "60 g wild rice, uncooked", "1 clove garlic, peeled, raw (3 g)", "7 g sesame seeds, unsalted", "12 g ginger, peeled, fresh, raw"],
+                instructions: ["Cook salmon according to packet instructions. Crush garlic and grate ginger (optional).", "Use a ratio of 1 part rice to 4 parts water. Bring water to a boil over medium heat.", "Add rice and allow it to come to a gentle simmer. Cover and reduce heat to low. Simmer until rice is tender (~45 minutes). Drain off any excess liquid.", "Heat a frying pan with oil, add crushed garlic, grated ginger, and veggies. Sauté until tender.", "Top the wild rice with the salmon and vegetables; garnish with sesame seeds."]
+            },
+            {
+                title: "CHICKEN FAJITA PASTA",
+                author: "Joanna Derry",
+                description: "Deliciously comforting pasta with juicy chicken and flavourful fajita vegetables — great for meal prep.",
+                ingredients: ["2 tbsp olive oil", "2 large skinless chicken breasts, cut into strips", "1 onion, thinly sliced", "1 red pepper, deseeded and sliced", "1 yellow pepper, deseeded and sliced", "1 clove garlic, crushed", "1/4 tsp chilli powder", "1 heaped tsp sweet smoked paprika", "1/2 tsp oregano", "1 tsp coriander", "1/2 tsp cumin", "3 tbsp tomato purée", "80 ml double light cream", "350 g penne pasta, dry weight", "100 g grated reduced-fat cheddar cheese (optional)", "Finely chopped fresh parsley (optional)"],
+                instructions: ["Heat the oil in a large frying pan. Add the chicken and fry for 5 minutes over medium heat until cooked through and golden. Remove and set aside.", "Put the onion and peppers in the same pan and fry over medium heat for 8–10 minutes. Add the garlic, dried herbs, and spices and cook for 1 minute. Add the tomato purée and cook for 2 minutes. Return the chicken to the pan, pour in the cream, and stir to combine. Season to taste.", "Cook the pasta according to package instructions; drain, reserving 150 ml of cooking water. Add the pasta to the pan with 50 ml of the reserved water and stir over heat. Add more water to loosen if needed.", "Divide between four bowls and top with cheese and extra parsley if using."]
+            },
+            {
+                title: "TUNA AND PESTO PASTA SALAD",
+                author: "Elsie McClenaghan",
+                description: "Quick and easy tuna pasta salad with a bit of pesto.",
+                ingredients: ["60 g pasta, white wheat flour, plain, fresh, uncooked", "100 g fish, tuna, light, canned in water, drained solids", "1/2 measure lemon juice, fresh (5 g)", "15 g pesto, green", "40 g cucumber, with peel, raw", "60 g tomatoes, standard, raw", "25 g olives, green, in brine, drained, flesh and skin", "25 g feta cheese, regular fat", "100 g spinach, fresh, raw"],
+                instructions: ["Cook pasta in boiling salted water following packet directions. Drain, rinse under cold water, and drain in a colander until dry. Transfer to a large bowl.", "Combine pesto and lemon juice; season with salt and pepper.", "Add tuna, cucumber, tomatoes, spinach, and olives to the pasta. Drizzle with pesto mixture and crumbled feta. Gently toss to combine."]
+            },
+            {
+                title: "APPLE–PEANUT BUTTER SNACK",
+                author: "Postma and Partners Dietitians",
+                ingredients: ["1 medium apple, raw, with skin (182 g)", "2 tbsp peanut butter, smooth (32 g)"],
+                instructions: ["Wash and slice the apple. Dip in peanut butter."]
+            },
+            {
+                title: "GREEN BEANS",
+                author: "NutriChange",
+                ingredients: ["400 g green beans, raw", "1 wedge of feta cheese (38 g)", "4 tsp olive oil (12 g)", "1 tsp garlic, raw (3 g)", "1 unit lemon juice, raw (48 g)", "1/4 tsp white pepper (1 g)", "Slivered almonds (27 g)", "1/2 cup onions, chopped, raw (80 g)"],
+                instructions: ["Place beans in boiling water for 5 minutes. Drain and transfer to ice water.", "In a pan, heat olive oil and sauté onion and garlic.", "Add the green beans and toss to coat. Add the rest of the ingredients and serve."]
             },
             {
                 title: "BOILED EGGS – SOFT, MEDIUM & HARD OPTIONS",
                 author: "Donna Sherrin",
-                ingredients: ["2 eggs, whole raw (88 g)", "1/2 tsp Himalayan salt"],
-                instructions: ["Fill half a medium saucepan with water; add salt. Gently lower eggs in.", "Place over medium heat; once simmering, set timer: Soft boiled = 4 min | Medium boiled = 5 min | Hard boiled = 8 min.", "Remove eggs with a slotted spoon; cool under cold water for 1–2 minutes.", "Crack gently on a hard surface, peel, and enjoy!"]
+                ingredients: ["2 regular units of egg, chicken, whole, raw (88 g)", "1/2 tsp Himalayan salt"],
+                instructions: ["Fill half a medium saucepan with water; add salt. Gently lower eggs in.", "Place over medium heat; once simmering, set timer: Soft boiled = 4 min | Medium boiled = 5 min | Hard boiled = 8 min.", "Remove with a slotted spoon; cool immediately under cold water for 1–2 minutes.", "Crack gently on a hard surface, peel, and enjoy!"]
             },
             {
-                title: "SPAGHETTI BOLOGNESE (MEAT BASED)",
-                author: "Catriona McMorris",
-                description: "Ridiculously tasty Italian classic, reworked with wholesome ingredients.",
-                ingredients: ["500 g bolognese sauce (lean beef mince, red wine, onions, tomatoes)", "2 cloves garlic (6 g)", "1 cup carrots, chopped (128 g)", "1 cup mushrooms, sliced (70 g)", "240 g pasta, dry enriched", "100 g low-fat cream cheese", "2 tsp nutritional yeast extract (12 g)"],
-                instructions: ["Add a little water to pan; sauté onion and garlic 2 minutes. Brown mince 10 minutes.", "Add carrots, zucchini, mushrooms, and chopped tomato; cook 10 minutes on gentle heat.", "Add red wine, seasonings, and nutritional yeast. Cover and simmer 20–30 minutes. Uncover, add basil, cook another 20–30 minutes.", "Cook pasta. Stir low-fat cream cheese into sauce. Serve with grated parmesan."]
+                title: "CHICKEN SOUP",
+                author: "Tanisha O'Malley",
+                ingredients: ["100 g onion, diced", "1 tbsp extra virgin olive oil", "100 g carrot, diced", "100 g celery, diced", "1100 g water", "1 cube chicken stock (5 g)", "Pinch of basil, dried", "1 pinch of oregano", "2 bay leaves", "100 g angel hair pasta", "500 g chicken breast, flesh, raw"],
+                instructions: ["Heat oil in a pot, add onions and cook until soft.", "Add carrots and celery, cook until soft.", "Add water, chicken stock, herbs, salt & pepper.", "Simmer for approx 10 minutes.", "Add noodles and chicken, cook for a further 10 minutes, stirring every few minutes.", "Season and enjoy."]
             },
             {
                 title: "SLT – YOGURT BANANA SUNDAE",
                 author: "Shaun La Touche",
                 description: "A sweet, healthy snack or dessert ready in under 5 minutes — no ice cream needed!",
-                ingredients: ["125 g Greek-style plain yogurt", "1/2 small banana (51 g)", "1/2 tsp almonds", "1/2 tsp dark chocolate chips or broken chocolate pieces"],
+                ingredients: ["1 pot of yogurt, Greek style, plain (125 g)", "1/2 small banana (51 g)", "1/4 tsp almonds", "1/4 tsp dark chocolate chips or broken pieces of chocolate"],
                 instructions: ["Spoon yogurt into a small bowl (or remove the seal on a single-serve container).", "Top with banana, almonds, and chocolate. Enjoy!"]
             },
             {
-                title: "ENSALADA DE POLLO",
-                author: "Pricilla Solis",
-                ingredients: ["4 oz chicken breast, skinless boneless raw (113 g)", "1 large sweet potato, baked (180 g)", "1/2 cup green peas raw (73 g)", "1/2 cup carrots, chopped raw (64 g)", "1 small celery stalk (17 g)", "1/2 small onion, raw (35 g)", "3 tbsp light mayo – Kraft (45 g)", "85 g Greek nonfat plain yogurt (or 2 tbsp light sour cream)", "1 tsp black pepper (2 g)", "1 tsp mustard, yellow (5 g)"],
-                instructions: ["Boil chicken with a dash of salt and half an onion until cooked; shred.", "Boil sweet potatoes and carrots until tender; cut potatoes into cubes.", "In a large bowl, combine shredded chicken, potatoes, carrots, peas, diced purple onion, and celery.", "In a separate bowl, whisk mayo, Greek yogurt, black pepper, and mustard.", "Pour creamy sauce over chicken bowl and mix all ingredients together."]
+                title: "CHICKEN AND MUSHROOM QUESADILLAS",
+                author: "The Fitness Grind",
+                ingredients: ["3 g olive oil (1 tsp)", "1 tbsp chopped onions, raw (10 g)", "5 g black pepper (1/2 tsp)", "1 clove garlic, raw (3 g)", "1 cup mushroom, white, raw (100 g)", "1 palm-sized slice of cheddar or gouda cheese (28 g)", "1 large flour tortilla (50 g)", "120 g chicken breast, grilled and chopped"],
+                instructions: ["Heat oil in a large frying pan over medium heat. Sprinkle 1/2 cup chicken over half the tortilla.", "Fry garlic and add the vegetables. Top with cheese.", "Fold tortilla in half. Cook in the skillet 2 minutes until golden brown on one side. Flip and cook another 2 minutes.", "Remove to a plate and serve."]
             },
             {
-                title: "BLACK BEANS",
-                author: "Selange Giannetto B.S., NDTR",
-                ingredients: ["13 cups black beans, canned (3120 g)", "3/4 cup palm kernel oil (164 g)", "1/2 cup onions, chopped (80 g)", "1 tbsp garlic powder (10 g)", "1 tbsp salt (18 g)", "2 cups water (948 g)"],
-                instructions: ["Heat oil in a large deep frying pan. Add chopped onions and cook until tender.", "Add seasonings; mix well. Add water and mix. Drain beans (reserve liquid), add to pan and mash, mixing until well blended.", "Turn mixture constantly to prevent burning. Hold at ≥135°F (57°C) for food safety."]
+                title: "SPICY SHRIMP BOWL WITH RICE",
+                author: "Arcanys",
+                description: "Easy to prep and cook — swap out protein and veggies for your own version.",
+                ingredients: ["24 pieces of shrimps (240 g)", "1 slice of avocado (65 g)", "1.5 cups carrots (135 g)", "1 cup cucumber/pipino (80 g)", "1 tsp oil for cooking (5 g)", "1 tbsp mayonnaise, low sodium, low calorie", "1 tsp sriracha hot sauce (7 g)", "1 tsp tamari/soy sauce", "Cooked rice (from package instructions)"],
+                instructions: ["Cook the rice according to package instructions. Let cool slightly.", "Pat shrimp dry with paper towel. Heat a cast-iron skillet over medium heat with oil. Add shrimp and cook 2–3 minutes per side until pink and cooked through. Set aside to cool.", "Mix mayonnaise, sriracha, and tamari in a small bowl. Add cooked shrimp and toss to combine. Cook carrots.", "Assemble: place rice, carrot, cucumber, and avocado into bowls. Add shrimp and enjoy!", "Leftovers: refrigerate in an airtight container up to 2 days. Add grated ginger or garlic for more flavour. Optional toppings: sesame seeds and/or lime zest."]
             },
             {
-                title: "CHICKEN FAJITAS",
-                author: "Agata Szczepanska",
-                ingredients: ["130 g chicken breast, oven-roasted", "3 peppers, different colours (81 g)", "100 g aubergine (curry-style)", "2 cloves garlic (6 g)", "2 whole-wheat tortillas (82 g)", "15 g feta cheese", "1 tsp oregano dried (1 g)", "1 tsp TABASCO sauce (5 g)", "1/4 cup cilantro (4 g)", "1 outer leaf green lettuce (24 g)", "30 g avocado"],
-                instructions: ["Mix 1 tbsp oil, chili sauce, oregano, paprika, salt, pepper, and crushed garlic in a bowl. Slice onion and chicken lengthwise 1 cm thick; toss in marinade. Refrigerate at least 1 hour, preferably overnight.", "Blacken peppers and aubergine over direct flame or in a griddle pan on high heat until charred. Place peppers in a bowl, cover, and rest 10 minutes; scrape off black skin. Pinch skin off aubergine and trim ends.", "Slice aubergine 2 cm thick; dress on a platter with lime juice and cilantro.", "Cook chicken and onions in marinade in a non-stick frying pan on medium-high heat 6–8 minutes, turning halfway.", "Slice avocado, squeeze lime over it. Warm tortillas 30 seconds in a dry pan. Serve everything at the table with feta and cilantro — build your own fajita."]
-            },
-            {
-                title: "GREEN SALAD – MARYEM'S",
-                author: "Maryem El-Hileh",
-                ingredients: ["1 cup spinach raw (30 g)", "1 cup green leaf lettuce, shredded (36 g)", "1 cup cucumber slices (104 g)", "1 medium green pepper (119 g)", "75 g sunflower seeds, dried", "1 tbsp balsamic vinegar (16 g)", "2 tbsp olive oil (27 g)", "1 tbsp lemon juice (15 g)"],
-                instructions: ["In a large bowl, combine greens, cucumbers, and peppers.", "Add dressing (vinegar, olive oil, lemon juice) and toss to coat evenly.", "Gently toss in sunflower seeds and avocado (optional). Divide among bowls.", "Finish with a pinch of flaky salt and pepper. Serve right away."]
+                title: "OPEN FACE PEANUT BUTTER & BANANA SANDWICH",
+                author: "Kurt Dixon",
+                description: "Delicious for adults and kids alike.",
+                ingredients: ["1 tbsp natural peanut butter", "1/2 medium banana, sliced", "1 slice gluten-free or whole-wheat white sandwich bread"],
+                instructions: ["Spread peanut butter on the bread.", "Place banana slices on top and enjoy."]
             }
         ];
 
